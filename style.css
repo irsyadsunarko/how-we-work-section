@@ -23,8 +23,8 @@
 
 .method-card {
     display: flex;
-    justify-content: space-evenly;
-    gap: 10px;
+    justify-content: center;
+    gap: 75px;
 }
 
 .card {
@@ -33,8 +33,15 @@
     gap: 45px;
     background-color: #EAEAEA;
     box-shadow: 4px 4px 10px 2px rgba(0, 0, 0, 0.25);
+    margin-top: 26px;
     overflow: hidden;
-    transition: 0.5s;
+}
+
+.card img {
+    width: 177px;
+    height: 310px;
+    object-fit: cover;
+    padding: 10px 10px 0 11px;
 }
 
 .card:hover img {
@@ -42,13 +49,6 @@
     height: 178px;
     object-fit: cover;
     transition: 0.3s;
-}
-
-.card img {
-    width: 177px;
-    height: 278px;
-    object-fit: cover;
-    padding: 10px 10px 0 10px;
 }
 
 .card-title h3 {
@@ -59,8 +59,8 @@
 }
 
 .card-body {
-    font-size: 11px;
-    font-weight: 600;
+    font-size: 12px;
+    font-weight: normal;
     line-height: 13px;
     margin: 0 10px 10px 10px;
 }
