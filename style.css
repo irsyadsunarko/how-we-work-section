@@ -10,14 +10,11 @@
 }
 
 .title h1 {
-    font-family: 'Inter', sans-serif;
-    font-size: 40;
+    font-size: 38px;
     font-weight: bold;
 }
 
 .title h4{
-    font-family: 'Inter', sans-serif;
-    font-size: 13;
     font-weight: 400;
 }
 
@@ -39,16 +36,16 @@
 
 .card img {
     width: 177px;
-    height: 310px;
+    height: 277px;
     object-fit: cover;
     padding: 10px 10px 0 11px;
+    transition: 0.3s;
 }
 
 .card:hover img {
     width: 177px;
     height: 178px;
     object-fit: cover;
-    transition: 0.3s;
 }
 
 .card-title h3 {
@@ -63,4 +60,10 @@
     font-weight: normal;
     line-height: 13px;
     margin: 0 10px 10px 10px;
+    transition: 0.3s;
+    opacity: 0;
+}
+
+.card:hover .card-body {
+    opacity: 1;
 }
